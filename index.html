@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Tank Problem visualizer</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="shortcut icon" href="asset/icon/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="main-heading">The water tank Problem visualizer</h1>
+
+        <!-- input area -->
+        <div class="input-wrapper">
+            <div class="form-wrapper">
+                <p class="note-paragraph">Note:- Please Enter array of element separated by comma or whitespace. example:-(4,3,2,1,4) or (4 3 2 1 4)</p>
+                <div class="form-group">
+                    <input type="numbers" class="form-control" id="input" placeholder="Enter array item"></input>
+                    <button class="btn" id="addElementBtn">Insert Input Element</button>
+                </div>
+            </div>
+           
+            <div class="input-wrapper__header">
+                 <button class="btn" id="createTableBtn">Generate input table</button>
+                 <p id="display">Input array =></p>
+            </div>
+          
+            <div class="table-container">
+                <table class="table" id="inputTable" border="1"></table> 
+            </div>
+        </div>
+
+        <!-- output area -->
+        <div class="output-wrapper">
+            <div class="output-wrapper__header">
+                <button class="btn" id="generateOutput">Generate Output</button>
+                <p id="output">Output => </p>
+            </div>
+           
+            <div class="table-container">
+                <table class="table" id="outputTable" border="1"></table>
+            </div>
+        </div>
+    </div>
+
+    <!-- script file -->
+    <script src="asset/js/chart.min.js"></script>
+    <script src="asset/js/main.js"></script>
+</body>
+
+</html> 
